@@ -7,7 +7,7 @@ Sample table: <br />
 |1 | A | 20 | 101  | CSE  | John Doe | 01800000000|
 |2 | B | 22 | 102  | CSE  | John Doe | 01800000000|
 
-Anomaly:
+**Anomaly:**
 - Insertion anomaly: whenever we try to update one record, we need to add duplicate data
 - Deletion anomaly: Deletion of all CSE students will lead to complete annihilation of all CSE department data
 - Update anomaly: If the HOD of CSE get's changed then we need to update every CSE record
