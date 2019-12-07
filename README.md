@@ -1,5 +1,14 @@
 # Database ![Contributions welcome](https://img.shields.io/badge/contributions-welcome-orange.svg)
 ## Functional Dependency
+- If, A -> B we get a definite value of B for each A
+- Not a functional dependency: <br />
+
+| A | B |
+| :------------- | :----------: |
+| a | 1 |
+| a | 2 |
+| b | 3 |
+| c | 4 |
 
 ## Normalization
 Sample table: <br />
