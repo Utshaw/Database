@@ -1,4 +1,4 @@
-# Database
+# Database ![Contributions welcome](https://img.shields.io/badge/contributions-welcome-orange.svg)
 ## Functional Dependency
 
 ## Normalization
