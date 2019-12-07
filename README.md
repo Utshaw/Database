@@ -1,6 +1,8 @@
 # Database ![Contributions welcome](https://img.shields.io/badge/contributions-welcome-orange.svg)
 ## Functional Dependency
 - If, A -> B we get a definite value of B for each A
+
+Example: for each a from A, if a1 != a2 then b1 != b2 (b1,b2 from B)
 - Not a functional dependency: <br />
 
 | A | B |
