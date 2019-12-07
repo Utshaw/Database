@@ -38,5 +38,5 @@ Sample table: <br />
 
 
 ## Resources used
-- [Normalization](https://youtu.be/oylHRgBDfNc)
+- [Normalization - KNOWLEDGE GATE](https://youtu.be/oylHRgBDfNc)
 - https://youtu.be/RJ9TpkWKyU0
