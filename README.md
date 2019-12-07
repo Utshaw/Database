@@ -1,4 +1,5 @@
 # Database
+## Functional Dependency
 
 ## Normalization
 Sample table: <br />
