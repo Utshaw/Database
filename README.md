@@ -1,4 +1,18 @@
 # Database
+
+## Normalization
+Sample table: <br />
+| Roll no       | Name     | Age     | Roll ID     | Dept     | HOD Name     | HOD Phone     | 
+| :------------- | :----------: |  :----------: |  :----------: |  :----------: |  :----------: |  :----------: | 
+|1 | A | 20 | 101  | CSE  | John Doe | 01800000000|
+|2 | B | 22 | 102  | CSE  | John Doe | 01800000000|
+
+Anomaly:
+- Insertion anomaly: whenever we try to update one record, we need to add duplicate data
+- Deletion anomaly: Deletion of all CSE students will lead to complete annihilation of all CSE department data
+- Update anomaly: If the HOD of CSE get's changed then we need to update every CSE record
+
+
 ## Data model
 ### Conceptual Model
 ![](img/conceptual.png)
@@ -20,6 +34,8 @@
 - Database compatible table names
 - Data type
 - Will inlcude indexes, constraints, triggers and other data objects
+
+
 
 ## Resources used
 https://youtu.be/RJ9TpkWKyU0
