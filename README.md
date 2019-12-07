@@ -12,6 +12,8 @@ Example: for each a from A, if a1 != a2 then b1 != b2 (b1,b2 from B)
 | b | 3 |
 | c | 4 |
 
+Checking functional dependency:
+- Check if all records are unique or not. it they are unique then, no need to check. They are functionaly independent
 ## Normalization
 Sample table: <br />
 | Roll no       | Name     | Age     | Roll ID     | Dept     | HOD Name     | HOD Phone     | 
