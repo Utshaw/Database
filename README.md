@@ -38,4 +38,5 @@ Sample table: <br />
 
 
 ## Resources used
-https://youtu.be/RJ9TpkWKyU0
+- [Normalization](https://youtu.be/oylHRgBDfNc)
+- https://youtu.be/RJ9TpkWKyU0
