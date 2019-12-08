@@ -37,7 +37,20 @@ Checking functional dependency:
 ## 2NF 
 - Must be in 1NF
 - No pratial dependency on the table
-#### Partial dependency
+### Partial dependency
+<img src="img/2nf-1.png" style=" display:block; margin: 0 auto">
+
+**Solution**
+<img src="img/2nf-2.png" style=" display:block; margin: 0 auto">
+
+## 3NF
+- Must be in 1NF and 2NF
+- No transitive dependency
+### Transitive dependency
+- Attributes on table depends on non-prime attribute which depends on prime attribute 
+<img src="img/3nf-1.png" style=" display:block; margin: 0 auto">
+**Solution:**
+<img src="img/3nf-2.png" style=" display:block; margin: 0 auto">
 
 **Anomaly:**
 - Insertion anomaly: whenever we try to update one record, we need to add duplicate data
