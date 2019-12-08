@@ -80,6 +80,9 @@ Checking functional dependency:
 - Data type
 - Will inlcude indexes, constraints, triggers and other data objects
 
+## phpMyAdmin
+### Foriegn Key
+- Table must be of innoDB engine
 
 
 ## Resources used
