@@ -18,12 +18,21 @@ Checking functional dependency:
 - Removes repition of similar data on multiple places
 - Data redundancy uses extra spaces
 - Resundancy also leads to insertion, update and deletion anomaly
+- Aim is to minimize data redundancy
 - Sample table: <br />
 
 | Roll no       | Name     | Age     | Roll ID     | Dept     | HOD Name     | HOD Phone     | 
 | :------------- | :----------: |  :----------: |  :----------: |  :----------: |  :----------: |  :----------: | 
 |1 | A | 20 | 101  | CSE  | John Doe | 01800000000|
 |2 | B | 22 | 102  | CSE  | John Doe | 01800000000|
+
+## 1NF
+- Each column should contain atomic value
+<img src="img/1nf-1.png" style="width:200px;height: 200px; display:block; margin: 0 auto"> 
+- Each column should contain values that are of the same type
+<img src="img/1nf-2.png" style="width:200px;height: 200px; display:block; margin: 0 auto"> 
+- Each column should have a unique name
+<img src="img/1nf-3.png" style="width:200px;height: 200px; display:block; margin: 0 auto">
 
 **Anomaly:**
 - Insertion anomaly: whenever we try to update one record, we need to add duplicate data
