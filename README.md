@@ -34,6 +34,11 @@ Checking functional dependency:
 - Each column should have a unique name
 <img src="img/1nf-3.png" style="width:200px;height: 200px; display:block; margin: 0 auto">
 
+## 2NF 
+- Must be in 1NF
+- No pratial dependency on the table
+#### Partial dependency
+
 **Anomaly:**
 - Insertion anomaly: whenever we try to update one record, we need to add duplicate data
 - Deletion anomaly: Deletion of all CSE students will lead to complete annihilation of all CSE department data
