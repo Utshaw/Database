@@ -2,7 +2,7 @@
 ## Functional Dependency
 - If, A -> B we get a definite value of B for each A
 
-Example: for each a from A, if a1 != a2 then b1 != b2 (b1,b2 from B)
+Example: for functional dependency to exists,for each a from A, if a1 == a2 then b1 == b2 (b1,b2 from B)
 - Example of not a functional dependency: <br />
 
 | A | B |
@@ -15,7 +15,11 @@ Example: for each a from A, if a1 != a2 then b1 != b2 (b1,b2 from B)
 Checking functional dependency:
 - Check if all records are unique or not. it they are unique then, no need to check. They are functionaly independent
 ## Normalization
-Sample table: <br />
+- Removes repition of similar data on multiple places
+- Data redundancy uses extra spaces
+- Resundancy also leads to insertion, update and deletion anomaly
+- Sample table: <br />
+
 | Roll no       | Name     | Age     | Roll ID     | Dept     | HOD Name     | HOD Phone     | 
 | :------------- | :----------: |  :----------: |  :----------: |  :----------: |  :----------: |  :----------: | 
 |1 | A | 20 | 101  | CSE  | John Doe | 01800000000|
@@ -54,3 +58,4 @@ Sample table: <br />
 ## Resources used
 - [Normalization - KNOWLEDGE GATE](https://youtu.be/oylHRgBDfNc)
 - https://youtu.be/RJ9TpkWKyU0
+- [Normalization](https://www.youtube.com/playlist?list=PLLGlmW7jT-nTr1ory9o2MgsOmmx2w8FB3)
