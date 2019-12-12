@@ -84,6 +84,10 @@ Checking functional dependency:
 ### Foriegn Key
 - Table must be of innoDB engine
 
+# Oracle SQL
+## AUTO INCREMENT 
+- [Identity column](https://www.oracletutorial.com/oracle-basics/oracle-identity-column/)
+
 
 ## Resources used
 - [Normalization - KNOWLEDGE GATE](https://youtu.be/oylHRgBDfNc)
