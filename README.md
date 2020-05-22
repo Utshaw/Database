@@ -56,7 +56,12 @@ Checking functional dependency:
 - Insertion anomaly: whenever we try to update one record, we need to add duplicate data
 - Deletion anomaly: Deletion of all CSE students will lead to complete annihilation of all CSE department data
 - Update anomaly: If the HOD of CSE get's changed then we need to update every CSE record
+## Fan Trap
+### Problem
+<img src="img/fan-trap-1.png" style=" display:block; margin: 0 auto">
 
+### Solution
+<img src="img/fan-trap-2.png" style=" display:block; margin: 0 auto">
 
 ## Data model
 ### Conceptual Model
