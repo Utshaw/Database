@@ -63,6 +63,10 @@ Checking functional dependency:
 ### Solution
 <img src="img/fan-trap-2.png" style=" display:block; margin: 0 auto">
 
+## Relational Algebra
+<img src="img/relational-algebra-1.png" style=" display:block; margin: 0 auto">
+
+
 ## Data model
 ### Conceptual Model
 ![](img/conceptual.png)
@@ -95,6 +99,7 @@ Checking functional dependency:
 
 
 ## Resources used
+- [Relational Algebra](https://www.youtube.com/watch?v=tii7xcFilOA)
 - [Normalization - KNOWLEDGE GATE](https://youtu.be/oylHRgBDfNc)
 - https://youtu.be/RJ9TpkWKyU0
 - [Normalization](https://www.youtube.com/playlist?list=PLLGlmW7jT-nTr1ory9o2MgsOmmx2w8FB3)
