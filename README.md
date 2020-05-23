@@ -64,7 +64,11 @@ Checking functional dependency:
 <img src="img/fan-trap-2.png" style=" display:block; margin: 0 auto">
 
 ## Relational Algebra
+- Duplicates are eleminitated
+
 <img src="img/relational-algebra-1.png" style=" display:block; margin: 0 auto">
+
+<img src="img/relational-algebra-2.png" style=" display:block; margin: 0 auto">
 
 
 ## Data model
