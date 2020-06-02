@@ -103,6 +103,7 @@ Checking functional dependency:
 
 
 ## Resources used
+- [Awesome DBMS Course-CMU](https://www.youtube.com/watch?v=SdW5RKUboKc&list=RDCMUCHnBsf2rH-K7pn09rb3qvkA)
 - [Relational Algebra](https://www.youtube.com/watch?v=tii7xcFilOA)
 - [Normalization - KNOWLEDGE GATE](https://youtu.be/oylHRgBDfNc)
 - https://youtu.be/RJ9TpkWKyU0
