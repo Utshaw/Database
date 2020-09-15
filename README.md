@@ -56,6 +56,19 @@ Checking functional dependency:
 - Insertion anomaly: whenever we try to update one record, we need to add duplicate data
 - Deletion anomaly: Deletion of all CSE students will lead to complete annihilation of all CSE department data
 - Update anomaly: If the HOD of CSE get's changed then we need to update every CSE record
+## Fan Trap
+### Problem
+<img src="img/fan-trap-1.png" style=" display:block; margin: 0 auto">
+
+### Solution
+<img src="img/fan-trap-2.png" style=" display:block; margin: 0 auto">
+
+## Relational Algebra
+- Duplicates are eleminitated
+
+<img src="img/relational-algebra-1.png" style=" display:block; margin: 0 auto">
+
+<img src="img/relational-algebra-2.png" style=" display:block; margin: 0 auto">
 
 
 ## Data model
@@ -84,8 +97,14 @@ Checking functional dependency:
 ### Foriegn Key
 - Table must be of innoDB engine
 
+# Oracle SQL
+## AUTO INCREMENT 
+- [Identity column](https://www.oracletutorial.com/oracle-basics/oracle-identity-column/)
+
 
 ## Resources used
+- [Awesome DBMS Course-CMU](https://www.youtube.com/watch?v=SdW5RKUboKc&list=RDCMUCHnBsf2rH-K7pn09rb3qvkA)
+- [Relational Algebra](https://www.youtube.com/watch?v=tii7xcFilOA)
 - [Normalization - KNOWLEDGE GATE](https://youtu.be/oylHRgBDfNc)
 - https://youtu.be/RJ9TpkWKyU0
 - [Normalization](https://www.youtube.com/playlist?list=PLLGlmW7jT-nTr1ory9o2MgsOmmx2w8FB3)
