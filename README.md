@@ -71,6 +71,46 @@ Checking functional dependency:
 <img src="img/relational-algebra-2.png" style=" display:block; margin: 0 auto">
 
 
+## [Relational algebra calculator](https://dbis-uibk.github.io/relax/calc/local/uibk/local/0)
+```
+Person = {
+P, Name, Age, City
+'P1', 'Orko', 20, 'Ottawa'
+'P2', 'Jones', 30, 'Toronto'
+'P3', 'Blake', 25, 'Calgary'
+'P4', 'Clark', 20, 'Montreal'
+'P5', 'Adams', 30, 'Vancouver'
+}
+
+
+Team = {
+T, Name, City
+'T1', 'Maple Leafs', 'Toronto'
+'T2', 'Canucks', 'Vancouver'
+'T3', 'Canadiens', 'Montreal'
+'T4', 'Senators', 'Ottawa'
+}
+
+
+
+Fan = {
+P, T
+'P1', 'T1'
+'P1', 'T2'
+'P1', 'T3'
+'P1', 'T4'
+'P2', 'T1'
+'P2','T2'
+'P2' 'T3'
+'P3', 'T1'
+'P3', 'T2'
+'P4', 'T1'
+}
+
+
+sigma Age>=25 (Person)
+```
+
 ## Data model
 ### Conceptual Model
 ![](img/conceptual.png)
