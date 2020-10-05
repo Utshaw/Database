@@ -1,22 +1,53 @@
 # MySQL ![Contributions welcome](https://img.shields.io/badge/contributions-welcome-orange.svg)
 
-## Install
-`sudo apt-get install mysql-server`
+## Installation of MySQL
+### Debian
+```
+sudo apt-get install mysql-server
+```
+### CentOS
+```
+yum localinstall https://dev.mysql.com/get/mysql57-community-release-el7-9.noarch.rpm
+
+yum install mysql-community-server
+```
 
 ## Start MySQL server
-`sudo service mysql start`
+### Debian 
+```
+sudo service mysql start
+```
+### CentOS
+```
+sudo service mysqld start
+```
+
 
 ## Enter into mysql from command line
 ### As root
-`sudo mysql -uroot -p`
+```
+sudo mysql -uroot -p
+```
 ### Add a new user (after entering as root)
 
 
 ## Check status of MySQL server
-`sudo systemctl status  mysql`
+### Debian
+```
+sudo systemctl status  mysql
+```
+### CentOS
+```
+sudo systemctl status mysqld
+```
 
 ## Stop MySQL server
-`sudo systemctl stop  mysql`
+```
+sudo systemctl stop  mysql
+```
 
 ## Uninstall
-`sudo apt-get remove --purge mysql*`
+```
+sudo apt-get remove --purge mysql*
+```
+
